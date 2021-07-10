@@ -1,0 +1,147 @@
+
+.container{
+    border: 5px dotted lightsalmon;
+    width: 360px;
+    height:360px;
+    position:absolute;
+    top:0;left:0;right:0; bottom:0;
+    margin:auto;
+    background-color:chocolate;
+
+}
+
+@keyframes ani{
+    0%{
+        background-color:darkgreen;
+        transform:translate(0) rotate(72deg);
+        margin-top:30px;
+       
+    }
+
+    20%{
+        background-color:peru;
+        transform:translate(170px,0px) rotate(144deg);
+        margin-top:20px;
+    }
+
+    40%{
+        background-color:antiquewhite;
+        transform:translate(180px, 100px) rotate(216deg);
+    }
+
+    60%{
+        background-color:khaki;
+        transform:translate(170px, 200px) rotate(288deg);
+    }
+
+    80%{
+        background-color: magenta;
+        transform:translate(0px,200px) rotate(360deg);
+    }
+
+    100%{
+        background-color:aqua;
+        transform:translate(0px, 0px) rotate(20deg);
+    }
+}
+
+.box{
+    display:flex;
+
+}
+
+.fas{
+    font-size:15px;
+    font-weight:10px;
+    padding:5px;
+  
+    
+}
+
+.fa-slash{
+    font-size:15px;
+    transform:rotate(260deg);
+    font-weight:200px;
+    
+ 
+}
+
+.word{
+    font-size:15px;
+    padding:5px;
+     
+   
+}
+
+p{
+    
+    margin:10px;
+    animation: ani 5s linear infinite;
+
+}
+
+.i{
+    margin:10px;
+    animation: ani 5s linear infinite;
+}
+
+.a{
+    margin:10px;
+    transition: transform 7s;
+    animation: ani 5s linear infinite;
+
+}
+
+.p{
+    margin:10px;
+    transition: transform 7s;
+    animation: ani 5s linear infinite;
+
+}
+
+.k{
+    margin:10px;
+    transition: transform 7s;
+    animation: ani 5s linear infinite;
+
+}
+
+.j{
+    margin:10px;
+    transition: transform 7s;
+    animation: ani 5s linear infinite ;
+
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 5s linear infinite;
+  }
+
+  .fa-heart{
+    color:red;
+    font-size: 20px;
+    font-weight:150px;
+  }
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+  
+  
